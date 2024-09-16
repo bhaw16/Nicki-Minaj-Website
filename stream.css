@@ -85,4 +85,5 @@ button {
   color: darkmagenta;
   text-decoration: underline;
   text-decoration-color: darkturquoise;
+  cursor: pointer;
 }
