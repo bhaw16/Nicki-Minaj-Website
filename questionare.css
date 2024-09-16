@@ -1,0 +1,126 @@
+body {
+  background-color: rgba(192, 192, 192, 0.5);;
+}
+
+label, textarea {
+  font-family: "Playfair Display", serif;
+  color: darkslateblue;
+}
+
+textarea {
+  background-color: hotpink;
+  border: 5px dashed black;
+  border-radius: 25px;
+}
+
+h1 {
+  font-family: "Major Mono Display", monospace;
+  color: mediumvioletred;
+  margin: 35px;
+}
+
+.pink-friday {
+  color: hotpink;
+  font-family: "Style Script", cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+  position: fixed;
+  z-index: 2;
+  background-color: black;
+  display: block;
+  margin:auto;
+  padding: 0;
+  height: 35px;
+  width: 100%;
+  overflow: hidden;
+}
+
+nav li {
+  display: inline
+}
+
+nav li a {
+  font-family: "Playfair Display", serif;
+  text-decoration: none;
+  color: hotpink;
+  padding: 25px;
+}
+
+nav li a:hover {
+  color: mediumvioletred;
+  text-decoration: underline;
+  text-decoration-color: darkviolet;
+}
+
+a {
+  text-decoration: none;
+  color: mediumvioletred;
+}
+
+a:hover {
+  color: darkviolet;
+  text-decoration: underline;
+  text-decoration-color: darkviolet;
+}
+
+textarea {
+  display: block;
+  resize: none;
+}
+
+#submit-button {
+  display: block;
+}
+
+
+.button {
+  background-color: deeppink;
+  border: 5px solid #421a64;
+  margin: 15px;
+  width: 25%;
+  height: 35px;
+  text-align: center;
+}
+
+.button {
+  text-decoration: none;
+  color: black;
+  font-family: "Style Script", cursive;
+}
+
+.button:hover {
+  color: darkmagenta;
+  text-decoration: underline;
+  text-decoration-color: darkturquoise;
+}
+
+button {
+  text-decoration: none;
+  color: black;
+  font-family: "Style Script", cursive; 
+}
+
+button:hover {
+  color: darkmagenta;
+  text-decoration: underline;
+  text-decoration-color: darkturquoise;
+}
+
+.back-to-top {
+  text-decoration: none;
+  color: black;
+  font-family: "Style Script", cursive;
+}
+
+.back-to-top:hover {
+  color: darkmagenta;
+  text-decoration: underline;
+  text-decoration-color: darkturquoise;
+}
+
+#no-underline {
+  text-decoration: none;
+}
